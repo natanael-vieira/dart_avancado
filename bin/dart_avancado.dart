@@ -14,11 +14,15 @@ void main(List<String> arguments) {
 }
 */
 
+import 'package:dart_avancado/src/carrinho_compras.dart';
+
 import '../lib/src/calculo_idade.dart';
 
 void main(List<String> args) {
   if (args[0] == "calculo-idade") {
     calculoIdade();
+  } if (args[0] == "carrinho-compras") {
+    carrinhoCompras();
   } else {
     print("===== ESSE PROGRAMA NÃO EXISTE =====");
   }
