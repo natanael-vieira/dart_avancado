@@ -25,7 +25,7 @@ void main(List<String> args) {
   } if (args[0] == "carrinho-compras") {
     carrinhoCompras();
   } if (args[0] == "calculo-imc") {
-    calculoImc();
+    calculoDeImc();
   } else {
     print("===== ESSE PROGRAMA NÃO EXISTE =====");
   }
